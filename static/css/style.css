@@ -1,0 +1,266 @@
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: "Lucida Grande";
+  background-color: black;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+header {
+  height: 67px;
+  width: 100%;
+  background-color: rgba(32, 136, 32, 0.696);
+  position: fixed;
+  top: 0;
+  z-index:10;
+}
+
+.logo {
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hcl li{
+  float: left;
+  position: relative;
+  bottom: 67px;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition:all 0.5s;
+  float: left;
+  width: 15%;
+  margin: 0 20px;
+  padding: 0px 20px;
+}
+.hcl-left li{
+  float: left;
+  left: 150px;
+  position: relative;
+  bottom: 67px;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition:all 0.5s;
+  float: left;
+  width: 15%;
+  margin: 0 20px;
+  padding: 0px 20px;
+}
+
+.hcl li:hover {
+  background-color: rgba(97, 249, 9, 0.64);
+}
+.hcl-left li:hover {
+  background-color: rgba(97, 249, 9, 0.64);
+}
+.hcl li a{
+  line-height: 65px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  display: block;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper {
+    padding: 500px 0 75px 0;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.8;
+  }
+.content{
+  position: relative;
+  bottom:250px;
+  opacity:1.0;
+  
+}
+.content h1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 45px;
+  padding-bottom: 20px;
+
+}  
+
+.content p{
+  font-size: 20px;
+  border-bottom: 10px;
+}
+ 
+.topnav {
+  margin: auto;
+  width: 30%;
+  padding: 1%;
+  background-color: transparent;
+  background-image: linear-gradient(white);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.search-bar{
+  border-radius: 60px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  display: flex;
+  padding: 10 px 20 px;
+  align-items: center;
+  
+}
+.search-bar input{
+  margin: auto;
+  background: transparent;
+  outline:0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: white;
+}
+::placeholder{
+  color: green;
+  top: 0;
+}
+.search-bar button img{
+  width: 25px;
+  
+}
+.search-bar button{
+  margin-left: 14px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: green;
+  cursor: pointer;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.top-bar{
+  padding: auto;
+  height: 65px;
+  background-color: transparent;
+  color: white;
+  border: 0;
+}
+.top-bar-left{
+  padding: auto;
+  left: 20%;
+  height: 65px;
+  background-color: transparent;
+  color: white;
+  border: 0;
+}
+.topnav input[type=text] {
+  text-align: center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.overlay{
+  margin: auto;
+  top: 20%;
+  color: black;
+  display: none;
+  border-radius: 50px;
+  width: 50%;
+  height: 25%;
+  display: none;
+  background-color: rgb(255, 255, 255);
+  padding: 10%;
+  position: absolute;
+}
+.jam{
+  padding: 3%;
+  margin: 10;
+  color: white;
+  height: fit-content;
+  background-color: green;
+  border: none;
+  border-radius: 50px;
+  width: 14%;
+}
+.overlay2{
+  margin: auto;
+  top: 20%;
+  color: black;
+  display: none;
+  border-radius: 50px;
+  width: 50%;
+  height: 25%;
+  display: none;
+  background-color: rgb(255, 255, 255);
+  padding: 10%;
+  position: absolute;
+}
+.overlay3{
+  display: none;
+}
+.overlay4{
+  display: none;
+}
+.hadist{
+  padding: 3%;
+  margin: 10;
+  color: white;
+  height: fit-content;
+  background-color: green;
+  width: 20%;
+  border: none;
+  border-radius: 50px;
+  width: 20%;
+}
+
+.jam-waktu{
+  padding: 20px;
+  color: white;
+  margin: 20px;
+  border-radius: 50px;
+  background-color: green;
+}
